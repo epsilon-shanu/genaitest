@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/genaitest" mode="merge"/>
+    <filter root="/content/genaitest" mode="merge"/>
+    <filter root="/content/dam/genaitest" mode="merge">
+        <exclude pattern="/content/dam/genaitest(/.*)?"/>
+        <include pattern="/content/dam/genaitest/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/genaitest/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/genaitest" mode="merge"/>
+</workspaceFilter>
